@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web development</title>
+  <!-- box-icons cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+      <a href="#"><img src="../images/icon1.png" alt="logo" class="logo"></a>
+        <ul class="navbar">
+            <li><a href="#signUP" class="signUp">create account</a></li>
+            <div class="menuBar">
+            <i class='bx bx-menu'></i>
+            </div>
+        </ul>
+</header>
+<section class="home" id="home">
+        <div class="home-container">
+          <form action="https://formspree.io/f/mdovlwbv" method="POST">
+            <label for="fullName">Your fullName</label>
+            <input name="fullName" id="fullname" type="text" required>
+            <label for="email">Your Email</label>
+            <input name="Email" id="email" type="email" required>
+            <label for="number">amount</label>
+            <input name="number" id="number" type="number" required>
+            <button type="submit">Submit</button>
+          </form>
+        </div>        
+</section>
+  
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
